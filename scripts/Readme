@@ -1,0 +1,60 @@
+SIGB Data Pipeline & BI Solution
+
+📖 Description
+Ce projet est une solution complète de Business Intelligence (BI) conçue pour optimiser la gestion et l'analyse des données d'un Système Intégré de Gestion de Bibliothèque (SIGB). Le pipeline automatise le nettoyage, la migration et la visualisation de données bibliographiques complexes issues de fichiers CSV.
+
+🛠 Architecture Technique
+Le projet repose sur une chaîne de traitement robuste :
+
+Modélisation : Conception de MCD/MLD normalisés.
+
+Ingénierie (ETL) : Nettoyage et migration via Python (Pandas) vers PostgreSQL.
+
+Visualisation : Tableau de bord décisionnel interactif sous Power BI.
+
+📂 Structure du Dépôt
+Plaintext
+├── data/               # Données sources (nettoyées)
+├── sql/                # Scripts DDL de création de la base (PostgreSQL)
+├── scripts/            # Script Python de migration et ETL
+├── model/              # Schémas MCD et MLD du projet
+├── report/             # Rapport complet du projet (PDF)
+├── .env                # Variables d'environnement (non poussé)
+├── .gitignore          # Configuration pour exclure les fichiers sensibles
+└── README.md           # Documentation du projet
+🚀 Installation & Utilisation
+1. Prérequis
+Python 3.x installé.
+
+PostgreSQL configuré localement.
+
+Power BI Desktop.
+
+2. Configuration
+Crée un fichier .env à la racine du projet avec tes identifiants :
+
+Plaintext
+DB_NAME=sigb_db
+DB_USER=ton_user
+DB_PASSWORD=ton_password
+DB_HOST=localhost
+DB_PORT=5432
+
+3. Exécution de la migration
+Active ton environnement virtuel et lance le script d'ETL :
+
+Bash
+# Activation de l'environnement
+.\.venv\Scripts\Activate.ps1
+
+# Lancement de la migration
+python scripts/migrate_final.py
+
+📊 Visualisation (Power BI)
+Le dashboard permet une analyse multidimensionnelle :
+
+KPIs de collection : Nombre total de notices et d'exemplaires.
+
+Répartition géographique et campus : Analyse comparative BUA/BUF.
+
+Analyses tendancielles : Top 10 des matières et auteurs, et évolution temporelle des acquisitions.

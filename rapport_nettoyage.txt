@@ -1,0 +1,21 @@
+
+============================================================
+  RAPPORT DE NETTOYAGE — 04/06/2026 13:35
+============================================================
+
+BUA brut : 10,179 lignes
+BUF brut : 15,190 lignes
+  [BUA] Notices مكرر supprimées : 993
+  [BUF] Cotes restaurées : 286
+  [BUA] Cotes restaurées : 0
+  [BUA] Annee invalide : 27 → NULL
+  [BUF] Annee invalide : 2 → NULL
+  [BUF] Doublons : 2
+  [BUA] Inventaires renommés : 86
+  [BUF] Inventaires renommés : 88
+
+BUA propre : 9,186 lignes  (dont 993 مكرر supprimés)
+BUF propre : 15,188 lignes
+Total      : 24,374 notices prêtes pour PostgreSQL
+
+============================================================
