@@ -1,8 +1,8 @@
 # SIGB-Data-Analysis
-📖 Description
+ Description
 Ce projet est une solution complète de Business Intelligence (BI) conçue pour optimiser la gestion et l'analyse des données d'un Système Intégré de Gestion de Bibliothèque (SIGB). Le pipeline automatise le nettoyage, la migration et la visualisation de données bibliographiques complexes issues de fichiers CSV.
 
-🛠 Architecture Technique
+Architecture Technique
 Le projet repose sur une chaîne de traitement robuste :
 
 Modélisation : Conception de MCD/MLD normalisés.
@@ -11,7 +11,7 @@ Ingénierie (ETL) : Nettoyage et migration via Python (Pandas) vers PostgreSQL.
 
 Visualisation : Tableau de bord décisionnel interactif sous Power BI.
 
-📂 Structure du Dépôt
+ Structure du Dépôt
 Plaintext
 ├── data/               # Données sources (nettoyées)
 ├── sql/                # Scripts DDL de création de la base (PostgreSQL)
@@ -21,7 +21,7 @@ Plaintext
 ├── .env                # Variables d'environnement (non poussé)
 ├── .gitignore          # Configuration pour exclure les fichiers sensibles
 └── README.md           # Documentation du projet
-🚀 Installation & Utilisation
+ Installation & Utilisation
 1. Prérequis
 Python 3.x installé.
 
@@ -47,7 +47,7 @@ Bash
 
 # Lancement de la migration
 python scripts/migrate_final.py
-📊 Visualisation (Power BI)
+ Visualisation (Power BI)
 Le dashboard permet une analyse multidimensionnelle :
 
 KPIs de collection : Nombre total de notices et d'exemplaires.
