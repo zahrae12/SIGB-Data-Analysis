@@ -2,7 +2,6 @@
 
 A complete Business Intelligence pipeline for a university library: two raw catalog exports are cleaned with Python, loaded into a normalized PostgreSQL database through an ETL script, and analyzed in an interactive Power BI dashboard.
 
-> End-of-module project, Master Intelligent Processing Systems (IPS), Université Mohammed V de Rabat, Faculté des Sciences, academic year 2025-2026.
 
 ## Table of contents
 
@@ -309,7 +308,7 @@ Then open the Power BI report, point the PostgreSQL connection to `sigb_db`, and
 - Apply machine learning on publication and demand history to anticipate acquisitions.
 - Enrich notices with ISBN to improve deduplication.
 
-## Team
+
 
 - Doha Chaouki
 - Fatima Ezzahrae Zammou
