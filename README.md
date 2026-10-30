@@ -1,4 +1,4 @@
-# Library BI Solution (SIGB)
+# Library BI RAG assistant
 
 A complete Business Intelligence pipeline for a university library: two raw catalog exports are cleaned with Python, loaded into a normalized PostgreSQL database through an ETL script, and analyzed in an interactive Power BI dashboard.
 
